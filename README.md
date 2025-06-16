@@ -17,7 +17,7 @@ cd Document
 You will then want to clone the directory within your given folder with the following command:
 
 ```bash
-git clone #
+git clone https://github.com/MartinRichmanUni/VirtualAssistant.git
 ```
 ## Setting up the Virtual Environment
 
@@ -34,7 +34,7 @@ After that, you can start the virtual environment with the command:
 ```bash
 source env/bin/activate
 ```
-Which should indicate it is activate as it will show the following:
+Which should indicate it is active as it will show the following:
 ```bash
 (env) $
 ```
@@ -58,7 +58,7 @@ pip3 install colorama
 pip3 install pillow
 ```
 ## Open the Python file
-On the desktop, click the raspberry icon on the top left, navigate to Thonny with 'Programming > Thonny'and open it. Load the 'grok.py' file into the application.
+On the desktop, click the raspberry icon on the top left, navigate to Thonny with 'Programming > Thonny' and open it. Load the 'grok.py' file into the application.
 
 ## Getting necessary API keys
 The software using the OpenAI API for the assistant and PicoVoice for the custom wake word. 
